@@ -1,0 +1,43 @@
+body{
+	background-color: BlueViolet;
+	padding: 30px;  
+}
+
+h1{
+	text-align: center;
+	color: white;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;  
+	padding: 5px;
+} 
+
+input[type="text"], select{
+	padding: 10px 5px;
+	border-radius: 8px;
+	margin:10px ;
+	width: 50%; 
+	background-color: white;
+}
+
+label{
+	border-bottom: 1px dotted black;
+	margin: 10px ;
+	color: white;
+	font-size: 20px; 
+	display: inline-block;
+}
+
+input[type="submit"]{
+	background-color: black;
+	border-radius: 5px;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	position: fixed;
+	left: 20%;
+}
+
+input[type="submit"]:hover{
+	background-color:white;
+	color: black; 
+}
